@@ -1,0 +1,33 @@
+{
+  "name": "sqlDataGenerator",
+  "version": "1.0.0",
+  "description": "generate fake data for database tables",
+  "main": "./src/server/index.js",
+  "scripts": {
+    "start": "node ./src/server/index.js",
+    "lint": "eslint .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mhmdshorafa/sqlDataGenerator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mhmdshorafa/sqlDataGenerator/issues"
+  },
+  "homepage": "https://github.com/mhmdshorafa/sqlDataGenerator#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "compression": "^1.7.1",
+    "express": "^4.16.2",
+    "sqlite-parser": "^1.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^4.15.0",
+    "eslint-plugin-react": "^7.5.1",
+    "eslint-plugin-standard": "^3.0.1"
+  }
+}
